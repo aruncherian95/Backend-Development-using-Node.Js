@@ -35,14 +35,14 @@ app.get("/services",(req,res)=>{
 
 //Type: POST
 //ACCESS : Public
-//@Description : creating a reges page for about us
+//@Description : Using post method
 app.post('/login',()=>{
     res.send('login success')
 });
 
 //Type: DELETE
 //ACCESS : Public
-//@Description : creating a reges page for about us
+//@Description : using delete method
 app.delete("/about",(req,res)=>{
     res.send("About Route successfully deleted");
 });
